@@ -9,9 +9,15 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Forgotten Password</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Notes App Forgotten Password</h1>
+        <h2>Please enter the email of the lost account</h2>
+        <form action="forgot" method="post">
+            email: <input type="text" name="email"><br>
+            <input type="submit" value="Send email">
+            ${message}
+        </form>
     </body>
 </html>
